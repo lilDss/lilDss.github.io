@@ -1,0 +1,17 @@
+__developer__ = 'zju'
+
+[sys]
+backend = "pt"
+device = "cpu"
+logging = true
+
+[logging]
+level = "debug"
+filename = "test_log.log"
+format = "%(asctime)s - %(levelname)s - %(message)s"
+datefmt = "%Y-%m-%dT%H:%M:%S"
+
+#[data]
+
+
+#[train]

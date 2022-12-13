@@ -1,0 +1,24 @@
+[sys]
+backend = "pt"
+device = "cpu"
+logging = true
+
+[logging]
+level = "debug"
+filename = "test_log.log"
+format = "%(asctime)s - %(levelname)s - %(message)s"
+datefmt = "%Y-%m-%dT%H:%M:%S"
+
+[data]
+seed = 1
+path = ""
+batch_size = "4"
+
+[model]
+net = 1
+
+[train]
+epoch = 10
+
+
+[metrics]
